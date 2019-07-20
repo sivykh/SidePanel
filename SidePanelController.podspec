@@ -30,6 +30,7 @@ are dedicated to be side menu or something like that.
   s.source           = { :git => 'https://github.com/sivykh/SidePanel.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0.1'
 
   s.source_files = 'SidePanelController/Classes/**/*'
   

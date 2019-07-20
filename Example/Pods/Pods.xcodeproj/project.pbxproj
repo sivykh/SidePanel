@@ -45,8 +45,8 @@
 
 /* Begin PBXFileReference section */
 		03DB390F28A56D67A2539371FE29265D /* Pods-SidePanelController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SidePanelController_Example-umbrella.h"; sourceTree = "<group>"; };
-		04A833C2B7561C1B838AC429D4CDED8F /* SidePanelController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SidePanelController.framework; path = SidePanelController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E8FB57A13C75B302A4A9F92B60E3152 /* Pods_SidePanelController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SidePanelController_Example.framework; path = "Pods-SidePanelController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A833C2B7561C1B838AC429D4CDED8F /* SidePanelController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SidePanelController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8FB57A13C75B302A4A9F92B60E3152 /* Pods_SidePanelController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidePanelController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1105B62A6E1C1C8B12A8946F0AAF4538 /* SidePanelController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SidePanelController.modulemap; sourceTree = "<group>"; };
 		12A8A041F1AD594F6CE88249F35FE49C /* SPChildren.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPChildren.swift; path = SidePanelController/Classes/SPChildren.swift; sourceTree = "<group>"; };
 		15641D432F081D0A9A4BF39051C052AD /* SidePanelController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SidePanelController.xcconfig; sourceTree = "<group>"; };
@@ -54,19 +54,19 @@
 		228C9539FFD632EE5973378F95D77A9F /* Pods-SidePanelController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SidePanelController_Example-Info.plist"; sourceTree = "<group>"; };
 		31BB8C5709A10BA6A7A534BAF2813587 /* UIViewController+SP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+SP.swift"; path = "SidePanelController/Classes/UIViewController+SP.swift"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		35232BFD334AEADEB5CFCCD0A6811997 /* SidePanelController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SidePanelController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		35232BFD334AEADEB5CFCCD0A6811997 /* SidePanelController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SidePanelController.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		356BE00BFD51867DE63C6B90DD0D9BF9 /* Pods-SidePanelController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SidePanelController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3F76FB5F8D332C6F34C0D80B5D93600E /* SidePanelController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SidePanelController-dummy.m"; sourceTree = "<group>"; };
 		603F9A751312A3996C0BBC88592566FE /* Pods-SidePanelController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SidePanelController_Example.modulemap"; sourceTree = "<group>"; };
 		65895D4BB9345560237260BB839ED825 /* Pods-SidePanelController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SidePanelController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		68C7599B85DA8C31E2B53AA90741A28D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		68C7599B85DA8C31E2B53AA90741A28D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6A09045446A159E2F9B77C67507A7BE1 /* Pods-SidePanelController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SidePanelController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6AF39AC78D6FC3CF7DFC652943185704 /* SPViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPViewController.swift; path = SidePanelController/Classes/SPViewController.swift; sourceTree = "<group>"; };
 		81786C8D49B8357F8BB689C1FA40D21A /* SPViewControllerOverride.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPViewControllerOverride.swift; path = SidePanelController/Classes/SPViewControllerOverride.swift; sourceTree = "<group>"; };
 		85F25BF738BA0FCA207B0E4520CAA54F /* SPGestures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPGestures.swift; path = SidePanelController/Classes/SPGestures.swift; sourceTree = "<group>"; };
 		94C9D921035624D44E34561C02A9A922 /* Pods-SidePanelController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SidePanelController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		997F09D302741CD34CA6B14B0F4C5A2D /* Pods-SidePanelController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SidePanelController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA9DDC5762E31A9E141C9C479107732 /* Pods-SidePanelController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SidePanelController_Example-dummy.m"; sourceTree = "<group>"; };
 		9F1B6F312205DF2D25820C6261E1B187 /* SPViewControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPViewControllerType.swift; path = SidePanelController/Classes/SPViewControllerType.swift; sourceTree = "<group>"; };
 		B5D8AF3B07DDEA821AEFF72B528FC1EE /* Pods-SidePanelController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SidePanelController_Tests.modulemap"; sourceTree = "<group>"; };
@@ -76,9 +76,9 @@
 		C4AD3D34964CB79830F1DB1288D57DA8 /* Pods-SidePanelController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SidePanelController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C4BD2CE94A39A0841947D7DAF8F26922 /* SPControllerAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPControllerAppearance.swift; path = SidePanelController/Classes/SPControllerAppearance.swift; sourceTree = "<group>"; };
 		C5104F2D1B043859332859F5996C2EFF /* Pods-SidePanelController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SidePanelController_Tests-dummy.m"; sourceTree = "<group>"; };
-		D0D994AA440D233CD8AD9A3F296E1A21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D0D994AA440D233CD8AD9A3F296E1A21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E01E82113FF09FFA306DA9A1F2634E35 /* Pods-SidePanelController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SidePanelController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E49867DB27FD53FFB22C41DB34A06167 /* Pods_SidePanelController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SidePanelController_Tests.framework; path = "Pods-SidePanelController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49867DB27FD53FFB22C41DB34A06167 /* Pods_SidePanelController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidePanelController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCCF2884D23887DB3F79D08717CCAF3 /* Pods-SidePanelController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SidePanelController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F14701F82324CB44AF3D406B24696922 /* Pods-SidePanelController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SidePanelController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F9A208F6744A4AA63A29A3FF9FDA8D58 /* Pods-SidePanelController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SidePanelController_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -549,8 +549,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
