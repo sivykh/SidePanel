@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-
+This is UIViewController subsclass that you can use everywhere. It provides the ability
+to inject inside up to three controllers. One of them is shown like central view and two of them
+are dedicated to be side menu or something like that.
                        DESC
 
   s.homepage         = 'https://github.com/sivykh/SidePanel'

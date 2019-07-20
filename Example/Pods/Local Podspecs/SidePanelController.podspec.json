@@ -2,7 +2,7 @@
   "name": "SidePanelController",
   "version": "1.0.0",
   "summary": "iOS UI component that aims to provide side panel functionality.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "This is UIViewController subsclass that you can use everywhere. It provides the ability\nto inject inside up to three controllers. One of them is shown like central view and two of them\nare dedicated to be side menu or something like that.",
   "homepage": "https://github.com/sivykh/SidePanel",
   "license": {
     "type": "MIT",

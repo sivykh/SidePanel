@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35A9F522B1BB0D69D34D646D /* Pods_SidePanelController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D573152C4C36B35DEF2196 /* Pods_SidePanelController_Tests.framework */; };
+		27B9601EB0E00D53D2AB0C2D /* Pods_SidePanelController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B41BFEC11E2CC23021A8930 /* Pods_SidePanelController_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8CCC9E50CF5E37DE4A5F4856 /* Pods_SidePanelController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5451238467B2AD4A5833CD /* Pods_SidePanelController_Example.framework */; };
+		721FC7A374757D997B6F6DAF /* Pods_SidePanelController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD807C93319E5BB7FB49B6B8 /* Pods_SidePanelController_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F21CBEAB3F72B253AE0F2D1 /* Pods-SidePanelController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Tests.release.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Tests/Pods-SidePanelController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5A5451238467B2AD4A5833CD /* Pods_SidePanelController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidePanelController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B41BFEC11E2CC23021A8930 /* Pods_SidePanelController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidePanelController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SidePanelController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidePanelController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +39,14 @@
 		607FACE51AFB9204008FA782 /* SidePanelController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidePanelController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		69E775D1E7B1AC4DC0E834FC /* SidePanelController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SidePanelController.podspec; path = ../SidePanelController.podspec; sourceTree = "<group>"; };
-		6E55747892D9D67F07761873 /* Pods-SidePanelController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Example.release.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Example/Pods-SidePanelController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		87D5A142A4F243E87E0BCF0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9729CE480322800665035048 /* Pods-SidePanelController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Tests/Pods-SidePanelController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D0D573152C4C36B35DEF2196 /* Pods_SidePanelController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidePanelController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3F1DB55CC39968E0324FE21 /* Pods-SidePanelController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Example.debug.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Example/Pods-SidePanelController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ECF7CD3F10C9C17A9D93DEE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6BFE090C79F5762D516CB670 /* SidePanelController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SidePanelController.podspec; path = ../SidePanelController.podspec; sourceTree = "<group>"; };
+		8C21F207507641E5A2F1ED87 /* Pods-SidePanelController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Tests.release.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Tests/Pods-SidePanelController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A89C991C6FE6CFF8DB51E77C /* Pods-SidePanelController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Example.debug.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Example/Pods-SidePanelController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B4FEDAF54B9F8C94256758B0 /* Pods-SidePanelController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Tests/Pods-SidePanelController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA655B20C9761B04DD31375F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EDD5D66CAB0A3D16085A5ED6 /* Pods-SidePanelController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Example.release.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Example/Pods-SidePanelController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F9C061AB2AC87EFBF327747E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FD807C93319E5BB7FB49B6B8 /* Pods_SidePanelController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidePanelController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CCC9E50CF5E37DE4A5F4856 /* Pods_SidePanelController_Example.framework in Frameworks */,
+				721FC7A374757D997B6F6DAF /* Pods_SidePanelController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,34 +62,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A9F522B1BB0D69D34D646D /* Pods_SidePanelController_Tests.framework in Frameworks */,
+				27B9601EB0E00D53D2AB0C2D /* Pods_SidePanelController_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		197E1D3CBD01D36F159ACA99 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5A5451238467B2AD4A5833CD /* Pods_SidePanelController_Example.framework */,
-				D0D573152C4C36B35DEF2196 /* Pods_SidePanelController_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		233ABD68AA6A7780C1E1CB49 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D3F1DB55CC39968E0324FE21 /* Pods-SidePanelController_Example.debug.xcconfig */,
-				6E55747892D9D67F07761873 /* Pods-SidePanelController_Example.release.xcconfig */,
-				9729CE480322800665035048 /* Pods-SidePanelController_Tests.debug.xcconfig */,
-				4F21CBEAB3F72B253AE0F2D1 /* Pods-SidePanelController_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for SidePanelController */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				233ABD68AA6A7780C1E1CB49 /* Pods */,
-				197E1D3CBD01D36F159ACA99 /* Frameworks */,
+				FE294DA90B147406A59004BA /* Pods */,
+				8FCAC6936DBAE9336378C3AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,11 +132,31 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				69E775D1E7B1AC4DC0E834FC /* SidePanelController.podspec */,
-				ECF7CD3F10C9C17A9D93DEE1 /* README.md */,
-				87D5A142A4F243E87E0BCF0C /* LICENSE */,
+				6BFE090C79F5762D516CB670 /* SidePanelController.podspec */,
+				EA655B20C9761B04DD31375F /* README.md */,
+				F9C061AB2AC87EFBF327747E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8FCAC6936DBAE9336378C3AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD807C93319E5BB7FB49B6B8 /* Pods_SidePanelController_Example.framework */,
+				5B41BFEC11E2CC23021A8930 /* Pods_SidePanelController_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE294DA90B147406A59004BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A89C991C6FE6CFF8DB51E77C /* Pods-SidePanelController_Example.debug.xcconfig */,
+				EDD5D66CAB0A3D16085A5ED6 /* Pods-SidePanelController_Example.release.xcconfig */,
+				B4FEDAF54B9F8C94256758B0 /* Pods-SidePanelController_Tests.debug.xcconfig */,
+				8C21F207507641E5A2F1ED87 /* Pods-SidePanelController_Tests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SidePanelController_Example" */;
 			buildPhases = (
-				3FA7D47E99B76EC9C3E78CFA /* [CP] Check Pods Manifest.lock */,
+				1A1FBE859186917EF73A8666 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				174B8853CADB83CEB141C0E4 /* [CP] Embed Pods Frameworks */,
+				96D4BE4D25BF24B608CBD740 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,11 +185,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SidePanelController_Tests" */;
 			buildPhases = (
-				E2CF53AC9DBC86EB59001870 /* [CP] Check Pods Manifest.lock */,
+				A2BA86404D0AFB6C65A62370 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				4C672F4B7327B50A992969B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,7 +207,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -218,7 +216,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -228,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,25 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		174B8853CADB83CEB141C0E4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SidePanelController_Example/Pods-SidePanelController_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SidePanelController/SidePanelController.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SidePanelController.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SidePanelController_Example/Pods-SidePanelController_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3FA7D47E99B76EC9C3E78CFA /* [CP] Check Pods Manifest.lock */ = {
+		1A1FBE859186917EF73A8666 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,31 +284,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4C672F4B7327B50A992969B0 /* [CP] Embed Pods Frameworks */ = {
+		96D4BE4D25BF24B608CBD740 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SidePanelController_Tests/Pods-SidePanelController_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-SidePanelController_Example/Pods-SidePanelController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SidePanelController/SidePanelController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SidePanelController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SidePanelController_Tests/Pods-SidePanelController_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SidePanelController_Example/Pods-SidePanelController_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E2CF53AC9DBC86EB59001870 /* [CP] Check Pods Manifest.lock */ = {
+		A2BA86404D0AFB6C65A62370 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -411,12 +387,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -456,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -464,12 +443,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -500,37 +481,39 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3F1DB55CC39968E0324FE21 /* Pods-SidePanelController_Example.debug.xcconfig */;
+			baseConfigurationReference = A89C991C6FE6CFF8DB51E77C /* Pods-SidePanelController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SidePanelController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E55747892D9D67F07761873 /* Pods-SidePanelController_Example.release.xcconfig */;
+			baseConfigurationReference = EDD5D66CAB0A3D16085A5ED6 /* Pods-SidePanelController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SidePanelController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9729CE480322800665035048 /* Pods-SidePanelController_Tests.debug.xcconfig */;
+			baseConfigurationReference = B4FEDAF54B9F8C94256758B0 /* Pods-SidePanelController_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -544,15 +527,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SidePanelController_Example.app/SidePanelController_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F21CBEAB3F72B253AE0F2D1 /* Pods-SidePanelController_Tests.release.xcconfig */;
+			baseConfigurationReference = 8C21F207507641E5A2F1ED87 /* Pods-SidePanelController_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -562,8 +544,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SidePanelController_Example.app/SidePanelController_Example";
 			};
 			name = Release;
