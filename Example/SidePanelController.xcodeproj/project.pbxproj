@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		27B9601EB0E00D53D2AB0C2D /* Pods_SidePanelController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B41BFEC11E2CC23021A8930 /* Pods_SidePanelController_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		721FC7A374757D997B6F6DAF /* Pods_SidePanelController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD807C93319E5BB7FB49B6B8 /* Pods_SidePanelController_Example.framework */; };
+		B0A3278722E3833C002D0225 /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3278622E3833C002D0225 /* ViewControllers.swift */; };
+		B0A3278922E383E3002D0225 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3278822E383E3002D0225 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,6 @@
 		607FACD01AFB9204008FA782 /* SidePanelController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidePanelController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -42,6 +42,8 @@
 		6BFE090C79F5762D516CB670 /* SidePanelController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SidePanelController.podspec; path = ../SidePanelController.podspec; sourceTree = "<group>"; };
 		8C21F207507641E5A2F1ED87 /* Pods-SidePanelController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Tests.release.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Tests/Pods-SidePanelController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A89C991C6FE6CFF8DB51E77C /* Pods-SidePanelController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Example.debug.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Example/Pods-SidePanelController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B0A3278622E3833C002D0225 /* ViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		B0A3278822E383E3002D0225 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		B4FEDAF54B9F8C94256758B0 /* Pods-SidePanelController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Tests/Pods-SidePanelController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA655B20C9761B04DD31375F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EDD5D66CAB0A3D16085A5ED6 /* Pods-SidePanelController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidePanelController_Example.release.xcconfig"; path = "Target Support Files/Pods-SidePanelController_Example/Pods-SidePanelController_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				B0A3278522E38312002D0225 /* ViewControllers */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -146,6 +148,15 @@
 				5B41BFEC11E2CC23021A8930 /* Pods_SidePanelController_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0A3278522E38312002D0225 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0A3278622E3833C002D0225 /* ViewControllers.swift */,
+				B0A3278822E383E3002D0225 /* TabBarViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		FE294DA90B147406A59004BA /* Pods */ = {
@@ -331,7 +342,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				B0A3278722E3833C002D0225 /* ViewControllers.swift in Sources */,
+				B0A3278922E383E3002D0225 /* TabBarViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

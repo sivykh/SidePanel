@@ -44,6 +44,9 @@ extension SPViewController: SPViewControllerType {
     }
     
     public func toggleRight(animated: Bool) {
+        guard self.rightViewController != nil else {
+            return
+        }
         let toggle = {
             let hide = self.presentedContent == .right
             self.overlayButton.alpha = hide || self.rightAppearanceRule == .under ? 0 : 1
@@ -60,6 +63,9 @@ extension SPViewController: SPViewControllerType {
     }
     
     public func toggleLeft(animated: Bool) {
+        guard self.leftViewController != nil else {
+            return
+        }
         let toggle = {
             let hide = self.presentedContent == .left
             self.overlayButton.alpha = hide || self.leftAppearanceRule == .under ? 0 : 1
