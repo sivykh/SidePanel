@@ -77,6 +77,7 @@ private extension SPViewController {
     }
     
     func updateCentralUserInteractionEnabled(for centerViewController: UIViewController?, forced: Bool? = nil) {
+        // TODO: introduce var shouldDisableCentralControllerInteractions
         if let vc = (centerViewController as? UINavigationController)?.viewControllers.last {
             vc.view.isUserInteractionEnabled = forced ?? (presentedContent == .center)
         } else if let vc = centerViewController {

@@ -11,6 +11,20 @@ import UIKit
 // MARK: - SPViewControllerType declaration
 
 public protocol SPViewControllerType: AnyObject {
+    var leftViewController: UIViewController? { get set }
+    var centerViewController: UIViewController? { get set }
+    var rightViewController: UIViewController? { get set }
+    
+    var leftEdgeGesture: UIScreenEdgePanGestureRecognizer! { get }
+    var rightEdgeGesture: UIScreenEdgePanGestureRecognizer! { get }
+    var panGesture: UIPanGestureRecognizer! { get }
+    
+    var presentedContent: SidePanelController.SPPresentedController { get }
+    var sidePanelWidth: CGFloat { get set }
+    var leftAppearanceRule: SidePanelController.SPControllerAppearance { get set }
+    var rightAppearanceRule: SidePanelController.SPControllerAppearance { get set }
+    var sideOverlayViewColor: UIColor { get set }
+
     func present(content: SPPresentedController, animated: Bool)
     func setAppearance(_ appearance: SPControllerAppearance)
     func setOverlayButton(enabled: Bool)
@@ -48,6 +62,7 @@ extension SPViewController: SPViewControllerType {
             return
         }
         let toggle = {
+            // TODO: define a function that manages overlayButton and sends it to back or front
             let hide = self.presentedContent == .right
             self.overlayButton.alpha = hide || self.rightAppearanceRule == .under ? 0 : 1
             self.rightViewController?.beginAppearanceTransition(!hide, animated: animated)
