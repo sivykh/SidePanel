@@ -16,6 +16,7 @@ public final class SPViewController: UIViewController {
                with: presentedContent == .left, relatedGesture: leftEdgeGesture)
     }}
 
+    public var shouldDisableShiftedCentralControllerInteractions: Bool = true
     public var centerViewController: UIViewController? { didSet {
         updateCentralUserInteractionEnabled(for: centerViewController)
         change(old: oldValue, by: centerViewController, in: centerView,
@@ -78,7 +79,9 @@ private extension SPViewController {
     }
     
     func updateCentralUserInteractionEnabled(for centerViewController: UIViewController?, forced: Bool? = nil) {
-        // TODO: introduce var shouldDisableCentralControllerInteractions
+        guard shouldDisableShiftedCentralControllerInteractions else {
+            return
+        }
         if let vc = (centerViewController as? UINavigationController)?.viewControllers.last {
             vc.view.isUserInteractionEnabled = forced ?? (presentedContent == .center)
         } else if let vc = centerViewController {

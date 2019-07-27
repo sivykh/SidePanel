@@ -24,6 +24,8 @@ public protocol SPViewControllerType: AnyObject {
     var leftAppearanceRule: SidePanelController.SPControllerAppearance { get set }
     var rightAppearanceRule: SidePanelController.SPControllerAppearance { get set }
     var sideOverlayViewColor: UIColor { get set }
+    
+    var shouldDisableShiftedCentralControllerInteractions: Bool { get set }
 
     func present(content: SPPresentedController, animated: Bool)
     func setAppearance(_ appearance: SPControllerAppearance)
@@ -62,12 +64,11 @@ extension SPViewController: SPViewControllerType {
             return
         }
         let toggle = {
-            // TODO: define a function that manages overlayButton and sends it to back or front
             let hide = self.presentedContent == .right
-            self.overlayButton.alpha = hide || self.rightAppearanceRule == .under ? 0 : 1
             self.rightViewController?.beginAppearanceTransition(!hide, animated: animated)
             self.presentedContent = hide ? .center : .right
             self.updateFrames()
+            self.makeOverlayButton(hidden: hide || self.rightAppearanceRule == .under)
             self.rightViewController?.endAppearanceTransition()
         }
         if animated {
@@ -83,10 +84,10 @@ extension SPViewController: SPViewControllerType {
         }
         let toggle = {
             let hide = self.presentedContent == .left
-            self.overlayButton.alpha = hide || self.leftAppearanceRule == .under ? 0 : 1
             self.leftViewController?.beginAppearanceTransition(!hide, animated: animated)
             self.presentedContent = hide ? .center : .left
             self.updateFrames()
+            self.makeOverlayButton(hidden: hide || self.leftAppearanceRule == .under)
             self.leftViewController?.endAppearanceTransition()
         }
         if animated {
@@ -104,7 +105,7 @@ extension SPViewController: SPViewControllerType {
         let shouldCallDisappear = presentedContent != .center
         let action: (SPPresentationAction) -> Void = { args in
             let (rule, appearingController, disappearingController, content) = args
-            self.overlayButton.alpha = rule == .under ? 0 : 1
+            self.makeOverlayButton(hidden: rule == .under)
             appearingController?.beginAppearanceTransition(true, animated: animated)
             if shouldCallDisappear {
                 disappearingController?.beginAppearanceTransition(false, animated: animated)
@@ -119,11 +120,15 @@ extension SPViewController: SPViewControllerType {
         let block = {
             switch content {
             case .left:
-                action((self.leftAppearanceRule, self.leftViewController, self.rightViewController, content))
+                action(
+                    (self.leftAppearanceRule, self.leftViewController, self.rightViewController, content)
+                )
             case .right:
-                action((self.rightAppearanceRule, self.rightViewController, self.leftViewController, content))
+                action(
+                    (self.rightAppearanceRule, self.rightViewController, self.leftViewController, content)
+                )
             case .center:
-                self.overlayButton.alpha = 0
+                self.makeOverlayButton(hidden: true)
                 let disappearingController =
                     self.presentedContent == .left ? self.leftViewController : self.rightViewController
                 disappearingController?.beginAppearanceTransition(false, animated: animated)
@@ -136,6 +141,17 @@ extension SPViewController: SPViewControllerType {
             UIView.animate(withDuration: 0.3, animations: block)
         } else {
             block()
+        }
+    }
+}
+
+private extension SPViewController {
+    func makeOverlayButton(hidden: Bool) {
+        overlayButton.alpha = hidden ? 0 : 1
+        if hidden {
+            view.sendSubviewToBack(overlayButton)
+        } else {
+            view.bringSubviewToFront(overlayButton)
         }
     }
 }
