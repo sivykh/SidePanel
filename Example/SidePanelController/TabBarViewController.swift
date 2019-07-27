@@ -17,14 +17,14 @@ class TabBarViewController: UITabBarController {
         let above = SPViewController()
         above.title = "Above"
         above.setAppearance(.above)
-        above.centerViewController = GreenViewController()
+        above.centerViewController = UINavigationController(rootViewController: GreenViewController())
         above.leftViewController = RedViewController()
         above.rightViewController = BlueViewController()
         
         let under = SPViewController()
         under.title = "Under"
         under.setAppearance(.under)
-        under.centerViewController = GreenViewController()
+        under.centerViewController = UINavigationController(rootViewController: GreenViewController())
         under.leftViewController = RedViewController()
         under.rightViewController = BlueViewController()
         

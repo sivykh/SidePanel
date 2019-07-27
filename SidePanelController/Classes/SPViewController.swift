@@ -21,6 +21,7 @@ public final class SPViewController: UIViewController {
         change(old: oldValue, by: centerViewController, in: centerView,
                with: true /* always visible */, relatedGesture: nil)
         updateCentralUserInteractionEnabled(for: oldValue, forced: true)
+        setupGestureRelationship(newViewController: centerViewController)
         setNeedsStatusBarAppearanceUpdate()
     }}
 
@@ -82,6 +83,13 @@ private extension SPViewController {
             vc.view.isUserInteractionEnabled = forced ?? (presentedContent == .center)
         } else if let vc = centerViewController {
             vc.view.isUserInteractionEnabled = forced ?? (presentedContent == .center)
+        }
+    }
+    
+    func setupGestureRelationship(newViewController: UIViewController?) {
+        if let newNavigationVC = newViewController as? UINavigationController,
+            let newRecognizer = newNavigationVC.interactivePopGestureRecognizer {
+            leftEdgeGesture?.require(toFail: newRecognizer)
         }
     }
 }

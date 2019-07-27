@@ -48,6 +48,11 @@ public extension SPViewController {
         panGesture.isEnabled = leftAppearanceRule == .under || rightAppearanceRule == .under
         leftEdgeGesture.isEnabled = leftViewController != nil
         rightEdgeGesture.isEnabled = rightViewController != nil
+        
+        if let centerNavigationVC = centerViewController as? UINavigationController,
+            let popRecognizer = centerNavigationVC.interactivePopGestureRecognizer {
+            leftEdgeGesture?.require(toFail: popRecognizer)
+        }
     }
     
     override var childForStatusBarStyle: UIViewController? {
