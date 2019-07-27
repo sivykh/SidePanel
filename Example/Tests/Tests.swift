@@ -1,5 +1,5 @@
 import XCTest
-import SidePanelController
+@testable import SidePanelController
 
 class Tests: XCTestCase {
     
