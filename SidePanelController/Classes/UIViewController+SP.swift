@@ -27,8 +27,11 @@ public extension UIViewController {
         set {
             if let newValue = newValue {
                 objc_setAssociatedObject(
-                    self, &AssociatedKeys.sidePanelController,
-                    newValue, .OBJC_ASSOCIATION_ASSIGN
+                    self, &AssociatedKeys.sidePanelController, newValue, .OBJC_ASSOCIATION_ASSIGN
+                )
+            } else {
+                objc_setAssociatedObject(
+                    self, &AssociatedKeys.sidePanelController, nil, .OBJC_ASSOCIATION_ASSIGN
                 )
             }
         }

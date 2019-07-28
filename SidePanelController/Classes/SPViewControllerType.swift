@@ -105,13 +105,13 @@ extension SPViewController: SPViewControllerType {
         let shouldCallDisappear = presentedContent != .center
         let action: (SPPresentationAction) -> Void = { args in
             let (rule, appearingController, disappearingController, content) = args
-            self.makeOverlayButton(hidden: rule == .under)
             appearingController?.beginAppearanceTransition(true, animated: animated)
             if shouldCallDisappear {
                 disappearingController?.beginAppearanceTransition(false, animated: animated)
             }
             self.presentedContent = content
             self.updateFrames()
+            self.makeOverlayButton(hidden: rule == .under)
             appearingController?.endAppearanceTransition()
             if shouldCallDisappear {
                 disappearingController?.endAppearanceTransition()
@@ -128,12 +128,12 @@ extension SPViewController: SPViewControllerType {
                     (self.rightAppearanceRule, self.rightViewController, self.leftViewController, content)
                 )
             case .center:
-                self.makeOverlayButton(hidden: true)
                 let disappearingController =
                     self.presentedContent == .left ? self.leftViewController : self.rightViewController
                 disappearingController?.beginAppearanceTransition(false, animated: animated)
                 self.presentedContent = content
                 self.updateFrames()
+                self.makeOverlayButton(hidden: true)
                 disappearingController?.endAppearanceTransition()
             }
         }

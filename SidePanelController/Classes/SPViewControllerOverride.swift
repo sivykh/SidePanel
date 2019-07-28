@@ -45,7 +45,8 @@ public extension SPViewController {
         panGesture.require(toFail: leftEdgeGesture)
         panGesture.require(toFail: rightEdgeGesture)
         
-        panGesture.isEnabled = leftAppearanceRule == .under || rightAppearanceRule == .under
+        panGesture.isEnabled = centerViewController != nil &&
+            (leftAppearanceRule == .under || rightAppearanceRule == .under)
         leftEdgeGesture.isEnabled = leftViewController != nil
         rightEdgeGesture.isEnabled = rightViewController != nil
         
