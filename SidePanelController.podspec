@@ -33,5 +33,9 @@ are dedicated to be side menu or something like that.
   s.swift_version = '5.0.1'
 
   s.source_files = 'SidePanelController/Classes/**/*'
+
+  s.test_spec 'Tests' do |test_spec|
+    test_spec.source_files = 'SidePanelController/Tests/*.swift'
+  end
   
 end
